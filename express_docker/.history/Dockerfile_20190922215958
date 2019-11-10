@@ -1,0 +1,9 @@
+#specify base image
+
+
+#install dependancies
+
+
+#Default commmand
+
+CMD ["npm", "start"]
