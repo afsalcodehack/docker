@@ -9,7 +9,7 @@ const client = redis.createClient({
 });
 
 client.set('visits', 0);
-
+// api
 app.get('/', (req, res) => {
   client.get('visits', (err, visits) => {
     // process.exit(0)
